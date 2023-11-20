@@ -11,9 +11,9 @@ const Layout = ({ children }: LayoutProps) => {
     return (
         <>
             <header className="h-[10vh] w-full flex justify-center items-center bg-black text-white">
-            <Link href="/" legacyBehavior>
-                <h1>Phi</h1>            
-            </Link>
+                <Link href="/">
+                    <h1>Phi</h1>            
+                </Link>
             </header>
             <main 
             style={{ backgroundImage: "url('https://i.pinimg.com/originals/24/18/61/241861b1159f3e3a3b38d5ae538b7811.jpg" }}
