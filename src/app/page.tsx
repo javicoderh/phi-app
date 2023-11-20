@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+
 const HomePage: React.FC = () => {
     return (
         <div className="flex flex-col gap-4 rounded-lg border-2 border-white p-4 justify-center items-center backdrop-blur-md bg-blue/50">            
@@ -12,7 +13,7 @@ const HomePage: React.FC = () => {
             <Link href="/inventario">
                 inventario   
             </Link>
-            </h2>
+            </h2>            
         </div>
     );
 };
