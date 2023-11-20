@@ -1,6 +1,6 @@
 import Caja from '../_components/caja';
 
-const FormPage: React.FC = () => {
+const PantallaCaja: React.FC = () => {
     return (
         <div className='h-128'>
             <Caja />
@@ -8,4 +8,4 @@ const FormPage: React.FC = () => {
     );
 };
 
-export default FormPage;
+export default PantallaCaja;

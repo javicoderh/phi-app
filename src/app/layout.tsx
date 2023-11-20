@@ -18,7 +18,7 @@ const Layout = ({ children }: LayoutProps) => {
                 </h2>
             </header>
             <main 
-            style={{ backgroundImage: "url('https://i.pinimg.com/originals/24/18/61/241861b1159f3e3a3b38d5ae538b7811.jpg" }}
+            style={{ backgroundImage: 'url("https://i.pinimg.com/originals/24/18/61/241861b1159f3e3a3b38d5ae538b7811.jpg"' }}
             className="h-[80vh] bg-black flex justify-start items-start pt-5 pr-5 bg-cover bg-center overflow-y-auto pl-5 pb-5">
                 {children}
                 <Helper />
