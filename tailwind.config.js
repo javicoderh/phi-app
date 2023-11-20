@@ -10,8 +10,8 @@ module.exports = {
     extend: {
       scale: {
         '105': '1.05'
-      }
-    },
+      },
   },
   plugins: [],
+}
 }
