@@ -5,6 +5,11 @@
 await import("./src/env.mjs");
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+  images: {
+    domains: ['www.unileverfoodsolutions.cl'], // Add your image domain here
+  },
+  // ... any other configurations
+};
 
 export default config;
