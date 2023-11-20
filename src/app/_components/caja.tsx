@@ -24,8 +24,8 @@ const Caja: React.FC = () => {
             <div className='flex flex-col items-center justify-start h-full rounded p-4 border-2 border-white shadow-[0px_0px_5px_8px_rgba(0,0,0,0.2)] backdrop-blur-md bg-blue/50 p-4'>
                 <h2 className='text-white mb-2'>Pedido:</h2>
                 <ul className='list-none pl-0'>
-                    <li className='text-white star-marker mb-2'>empanada pollo queso <button className='pl-2 bg-blue-500 pr-2 rounded h-7 border border-solid border-white hover:scale-105 transition duration-300'>x</button></li>
-                    <li className='text-white star-marker'>bebida    <button className='pl-2 pr-2 bg-blue-500 rounded h-7 border border-solid border-white hover:scale-105 transition duration-300'> x</button></li>
+                    <li className='text-white star-marker mb-2'>empanada pollo queso <button className='pl-2 bg-blue-500 pr-2 rounded h-7 border-solid border-white hover:scale-105 transition duration-300'>x</button></li>
+                    <li className='text-white star-marker'>bebida    <button className='pl-2 pr-2 bg-blue-500 rounded h-7 border-solid border-white hover:scale-105 transition duration-300'> x</button></li>
                 </ul>
                 <hr className='h-0.5 w-full bg-white border-0 mt-5'></hr>
                 <h3 className='text-white'>Total: </h3>
