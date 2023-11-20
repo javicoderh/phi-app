@@ -7,7 +7,7 @@ await import("./src/env.mjs");
 /** @type {import("next").NextConfig} */
 const config = {
   images: {
-    domains: ['www.unileverfoodsolutions.cl'], // Add your image domain here
+    domains: ['www.unileverfoodsolutions.cl', 'www.creativefabrica.com', 'www.svgheart.com'],
   },
   // ... any other configurations
 };

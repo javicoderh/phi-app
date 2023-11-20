@@ -2,6 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .sangrar {
+    @apply contorno;
+  }
+}
+
+@keyframes irradiando {  
+  0%{filter: drop-shadow(2px 2px 25px rgb(228, 176, 176)) 
+    drop-shadow(-2px 2px 25px rgb(214, 174, 174)) 
+    drop-shadow(2px -2px 25px rgb(158, 113, 113)) 
+    drop-shadow(-2px -2px 25px rgb(187, 97, 97));}
+  10%{filter: drop-shadow(2px 2px 3px rgb(228, 176, 176)) 
+    drop-shadow(-2px 2px 5px rgb(214, 174, 174)) 
+    drop-shadow(2px -2px 5px rgb(158, 113, 113)) 
+    drop-shadow(-2px -2px 5px rgb(187, 97, 97));}
+  20%{filter: drop-shadow(2px 2px 40px rgb(141, 214, 211)) 
+    drop-shadow(-2px 2px 40px rgb(174, 214, 209)) 
+    drop-shadow(2px -2px 40px rgb(7, 135, 173)) 
+    drop-shadow(-2px -2px 40px rgb(22, 52, 150));}
+  30%{filter: drop-shadow(2px 2px 30px rgb(148, 32, 184)) 
+    drop-shadow(-2px 2px 30px rgb(227, 158, 230)) 
+    drop-shadow(2px -2px 30px rgb(240, 47, 240)) 
+    drop-shadow(-2px -2px 30px rgb(123, 0, 139));}
+  40%{filter: drop-shadow(2px 2px 25px rgb(228, 176, 176)) 
+    drop-shadow(-2px 2px 25px rgb(214, 174, 174)) 
+    drop-shadow(2px -2px 25px rgb(158, 113, 113)) 
+    drop-shadow(-2px -2px 25px rgb(187, 97, 97));}
+  50%{filter: drop-shadow(3px 3px 20px rgb(74, 248, 88)) 
+    drop-shadow(-2px 2px 5px rgb(152, 224, 152)) 
+    drop-shadow(2px -2px 5px rgb(6, 212, 92)) 
+    drop-shadow(-2px -2px 5px rgb(0, 182, 70));}
+  60%{filter: drop-shadow(2px 2px 40px rgb(228, 227, 176)) 
+      drop-shadow(-2px 2px 40px rgb(236, 221, 7)) 
+      drop-shadow(2px -2px 40px rgb(229, 241, 160)) 
+      drop-shadow(-2px -2px 40px rgb(255, 251, 28));}
+  70%{filter: drop-shadow(2px 2px 3px rgb(228, 176, 176)) 
+      drop-shadow(-2px 2px 5px rgb(214, 174, 174)) 
+      drop-shadow(2px -2px 5px rgb(158, 113, 113)) 
+      drop-shadow(-2px -2px 5px rgb(187, 97, 97));}
+  80%{filter: drop-shadow(2px 2px 40px rgb(141, 214, 211)) 
+      drop-shadow(-2px 2px 40px rgb(174, 214, 209)) 
+      drop-shadow(2px -2px 40px rgb(7, 135, 173)) 
+      drop-shadow(-2px -2px 40px rgb(22, 52, 150));}
+  90%{filter: drop-shadow(2px 2px 30px rgb(148, 32, 184)) 
+      drop-shadow(-2px 2px 30px rgb(227, 158, 230)) 
+      drop-shadow(2px -2px 30px rgb(240, 47, 240)) 
+      drop-shadow(-2px -2px 30px rgb(123, 0, 139));}
+  100%{filter: drop-shadow(2px 2px 25px rgb(228, 176, 176)) 
+      drop-shadow(-2px 2px 25px rgb(214, 174, 174)) 
+      drop-shadow(2px -2px 25px rgb(158, 113, 113)) 
+      drop-shadow(-2px -2px 25px rgb(187, 97, 97));}
+  }
 
 .custom-scrollbar::-webkit-scrollbar {
     display: none; 
@@ -17,3 +69,10 @@
     margin-right: 0.5rem; 
     color: #f59e0b; 
   }
+
+  .contorno {
+  animation: irradiando 40s linear  infinite;
+  transform: scale(1.1) translatey(-10%);
+  }
+            
+  
