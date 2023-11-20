@@ -1,6 +1,5 @@
 
-const FormularioIngreso: React.FC = () => {
-    
+const FormularioIngreso: React.FC = () => {    
 
     return (
         <div className="flex flex-col items-center justify-center p-4 border-2 border-white rounded backdrop-blur-md bg-blue/50 shadow-[0px_0px_5px_8px_rgba(0,0,0,0.2)]">
