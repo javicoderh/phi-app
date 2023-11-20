@@ -107,7 +107,7 @@
 
   .sangrar {
   animation: irradiando 160s linear  infinite;
-  transform: scale(1.2) translatey(-20%);
+  transform: scale(1.2) translatey(-40%);
   }
 
   .borderTop {
