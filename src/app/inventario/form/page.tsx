@@ -1,5 +1,3 @@
-
-import React from 'react';
 import FormularioIngreso from '../../_components/formularioIngreso';
 
 const FormPage: React.FC = () => {

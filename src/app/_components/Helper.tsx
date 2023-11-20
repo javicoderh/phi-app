@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import tuImagen from '../path/a/tu/imagen.jpg'; // Asegúrate de cambiar la ruta a tu imagen
+
 
 function Helper() {
   return (
