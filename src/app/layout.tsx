@@ -12,7 +12,9 @@ const Layout = ({ children }: LayoutProps) => {
         <>
             <header className="h-[10vh] w-full flex justify-center items-center bg-black text-white">
             <Link href="/" passHref>
+            <a>
                 <h1>Phi</h1>
+            </a>
             </Link>
             </header>
             <main 
