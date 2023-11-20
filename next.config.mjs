@@ -12,7 +12,8 @@ images: {
     { hostname: 'www.creativefabrica.com' },
     {hostname: 'www.svgheart.com' },
   ],
-}
+},
+reactStrictMode: true,
 }
 
 
