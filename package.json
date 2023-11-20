@@ -9,7 +9,7 @@
     "dev": "next dev",
     "postinstall": "prisma generate",
     "lint": "next lint",
-    "start": "next start"
+    "start": "npm run dev"
   },
   "dependencies": {
     "@prisma/client": "^5.1.1",
