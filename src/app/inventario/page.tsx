@@ -1,6 +1,6 @@
 import Almacen from '../_components/almacen';
 
-const FormPage: React.FC = () => {
+const Inventario: React.FC = () => {
     return (
         <div className='h-128'>
             <Almacen />
@@ -8,4 +8,4 @@ const FormPage: React.FC = () => {
     );
 };
 
-export default FormPage;
+export default Inventario;
