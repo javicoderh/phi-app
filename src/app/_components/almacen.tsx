@@ -19,7 +19,7 @@ const Almacen: React.FC = () => {
                     <Image width={20} height={10} className='border border-solid border-2 h-24 w-auto rounded' src="https://www.unileverfoodsolutions.cl/dam/global-ufs/mcos/sla/chile/calcmenu/recipes/CL-recipes/pack-shot-truth-visual/empanadas-de-carne/main-header.jpg" alt="" />
                     <Image width={20} height={10} className='border border-solid border-2 h-24 w-auto rounded' src="https://www.unileverfoodsolutions.cl/dam/global-ufs/mcos/sla/chile/calcmenu/recipes/CL-recipes/pack-shot-truth-visual/empanadas-de-carne/main-header.jpg" alt="" />          
                 </div>
-                    <Link href="/inventario/form" passHref>
+                    <Link href="/inventario/form">
                     <button className='p-2 text-white mt-5 bg-gray-700 rounded border-2 border-white hadow-[0px_0px_5px_8px_rgba(0,0,0,0.2)]'>ingreso de productos</button>
                     </Link>
             </div>
