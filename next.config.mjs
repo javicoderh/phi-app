@@ -6,10 +6,14 @@ await import("./src/env.mjs");
 
 /** @type {import("next").NextConfig} */
 const config = {
-  images: {
-    domains: ['www.unileverfoodsolutions.cl', 'www.creativefabrica.com', 'www.svgheart.com'],
-  },
-  // ... any other configurations
-};
+images: {
+  remotePatterns: [
+    { hostname: 'www.unileverfoodsolutions.cl' },
+    { hostname: 'www.creativefabrica.com' },
+    {hostname: 'www.svgheart.com' },
+  ],
+}
+}
+
 
 export default config;
