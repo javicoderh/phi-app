@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.custom-scrollbar::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .custom-scrollbar {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }
+
+  .star-marker::before {
+    content: '\2605'; 
+    margin-right: 0.5rem; 
+    color: #f59e0b; 
+  }

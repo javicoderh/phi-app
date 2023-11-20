@@ -1,11 +1,10 @@
-
 import React from 'react';
-import FormularioIngreso from '../_components/formularioIngreso';
+import Caja from '../_components/caja';
 
 const FormPage: React.FC = () => {
     return (
         <div>
-            <FormularioIngreso />
+            <Caja />
         </div>
     );
 };
