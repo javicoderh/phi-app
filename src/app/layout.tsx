@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 import '../styles/globals.css';
 import Link from 'next/link';
 import Helper from './_components/Helper';
