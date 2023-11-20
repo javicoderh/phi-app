@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .sangrar {
-    @apply contorno;
-  }
-}
 
 @keyframes irradiando {  
   0%{filter: drop-shadow(2px 2px 25px rgb(228, 176, 176)) 
@@ -110,7 +105,7 @@
     color: #f59e0b; 
   }
 
-  .contorno {
+  .sangrar {
   animation: irradiando 160s linear  infinite;
   transform: scale(1.2) translatey(-20%);
   }
