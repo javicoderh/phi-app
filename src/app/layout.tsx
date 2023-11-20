@@ -11,9 +11,11 @@ const Layout = ({ children }: LayoutProps) => {
     return (
         <>
             <header className="h-[10vh] w-full flex justify-center items-center bg-black text-white">
-                <Link className='text-white' href="/">
+                <h2>
+                <Link href="/">
                     Phi           
                 </Link>
+                </h2>
             </header>
             <main 
             style={{ backgroundImage: "url('https://i.pinimg.com/originals/24/18/61/241861b1159f3e3a3b38d5ae538b7811.jpg" }}
