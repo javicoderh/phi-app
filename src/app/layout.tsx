@@ -11,8 +11,10 @@ const Layout = ({ children }: LayoutProps) => {
     return (
         <>
             <header className="h-[10vh] w-full flex justify-center items-center bg-black text-white">
-                <Link href="/">
-                    <h1>Phi</h1>            
+                <Link href="/" legacyBehavior>
+                    <a>
+                        <h1>Phi</h1>
+                    </a>            
                 </Link>
             </header>
             <main 
